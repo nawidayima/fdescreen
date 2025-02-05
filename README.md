@@ -23,7 +23,11 @@ This will execute the function and print a sample result.
 
 ### 4. Run Tests
 ```bash
-python -m unittest discover
+python -m unittest discover -v
 ```
-This will automatically find and run all test cases in `test_sort.py`.
+This will run all tests with verbose output, showing:
+- The name of each test being run
+- The test's docstring description
+- Whether each test passed or failed
+- A summary of all test results
 
